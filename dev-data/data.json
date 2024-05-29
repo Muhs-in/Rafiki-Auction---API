@@ -1,0 +1,22 @@
+[
+  {
+    "make": "Toyota",
+    "model": "Prado",
+    "year": "2023-04-04",
+    "bodyType": "hatchback",
+    "mileage": 45000,
+    "engine": "2l Twin Turbo",
+    "transmission": "manual",
+    "color": "red"
+  },
+  {
+    "make": "Tesla",
+    "model": "X",
+    "year": "2020-07-04",
+    "bodyType": "sedan",
+    "mileage": 4500,
+    "engine": "Electric",
+    "transmission": "auto",
+    "color": "black"
+  }
+]
