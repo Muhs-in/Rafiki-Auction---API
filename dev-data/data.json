@@ -1,22 +1,82 @@
 [
   {
     "make": "Toyota",
-    "model": "Prado",
-    "year": "2023-04-04",
-    "bodyType": "hatchback",
-    "mileage": 45000,
-    "engine": "2l Twin Turbo",
-    "transmission": "manual",
-    "color": "red"
+    "model": "Camry",
+    "year": "2023-01-01",
+    "bodyType": "Sedan",
+    "mileage": 10000,
+    "engine": "2.5L I4",
+    "transmission": "automatic",
+    "color": "Silver",
+    "interiorColor": "Black",
+    "description": "A well-maintained 2023 Toyota Camry with low mileage. Perfect for everyday driving.",
+    "images": [
+      "https://example.com/car1-image1.jpg",
+      "https://example.com/car1-image2.jpg"
+    ],
+    "features": [
+      "Airbags",
+      "Air Conditioning",
+      "Cruise Control",
+      "Power Steering",
+      "Anti-lock Braking System"
+    ],
+    "damages": [],
+    "startingBid": 20000,
+    "auction": null,
+    "bids": [],
+    "sold": false
   },
   {
-    "make": "Tesla",
-    "model": "X",
-    "year": "2020-07-04",
-    "bodyType": "sedan",
-    "mileage": 4500,
-    "engine": "Electric",
-    "transmission": "auto",
-    "color": "black"
+    "make": "Ford",
+    "model": "Explorer",
+    "year": "2018-05-15",
+    "bodyType": "SUV",
+    "mileage": 50000,
+    "engine": "3.5L V6",
+    "transmission": "automatic",
+    "color": "Blue",
+    "interiorColor": "Gray",
+    "description": "A reliable 2018 Ford Explorer with moderate mileage. Great for families and outdoor activities.",
+    "images": [
+      "https://example.com/car2-image1.jpg",
+      "https://example.com/car2-image2.jpg"
+    ],
+    "features": [
+      "Airbags",
+      "Air Conditioning",
+      "Cruise Control",
+      "Power Steering",
+      "Forward Collision Warning",
+      "Parking Sensors",
+      "Anti-lock Braking System"
+    ],
+    "damages": ["Minor scratches on the rear bumper"],
+    "startingBid": 15000,
+    "auction": null,
+    "bids": [],
+    "sold": false
+  },
+  {
+    "make": "Harley-Davidson",
+    "model": "Fat Boy",
+    "year": "1998-07-04",
+    "bodyType": "Motorcycle",
+    "mileage": 30000,
+    "engine": "1340 cc V-Twin",
+    "transmission": "manual",
+    "color": "Black",
+    "interiorColor": "N/A",
+    "description": "A well-maintained 1998 Harley-Davidson Fat Boy. Classic style and powerful engine.",
+    "images": [
+      "https://example.com/car3-image1.jpg",
+      "https://example.com/car3-image2.jpg"
+    ],
+    "features": ["Air Conditioning", "Cruise Control"],
+    "damages": ["Slight wear and tear on the paint"],
+    "startingBid": 10000,
+    "auction": null,
+    "bids": [],
+    "sold": false
   }
 ]
