@@ -1,4 +1,5 @@
 const Car = require('../models/carModel');
+const APIFeatures = require('../utils/apiFeatures');
 
 exports.createCar = async (req, res) => {
   try {
@@ -19,7 +20,14 @@ exports.createCar = async (req, res) => {
 
 exports.getAllCars = async (req, res) => {
   try {
-    const cars = await Car.find();
+    const features = new APIFeatures(Car.find(), req.query)
+      .filter()
+      .sort()
+      .limitFields()
+      .paginate();
+
+    const cars = await features.query;
+
     res.status(200).json({
       status: 'success',
       results: cars.length,
