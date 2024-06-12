@@ -8,6 +8,8 @@ dotenv.config({
   path: path.resolve(`${__dirname}/config.env`),
 });
 
+console.log(process.env.NODE_ENV);
+
 const PORT = process.env.PORT || 3000;
 
 const DB = process.env.DATABASE.replace(
